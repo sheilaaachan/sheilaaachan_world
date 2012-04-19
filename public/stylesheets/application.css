@@ -1,0 +1,90 @@
+body { 
+	padding-top: 20px; 
+	font-size: 14px;
+} 
+
+#wrapper { 
+	background-color: #ffffff;
+}
+
+.supertiny {
+	font-size: 5px;
+	/*line-height: 1.5;*/
+}
+
+.well {
+	line-height: 1.5;
+	background-color: #E8FFFF;
+}
+
+.well li {
+	font-size: 130%;
+	line-height: 1.5;
+}
+
+.table th.centered, .table td.centered {
+    text-align: center;
+}
+
+#footer {
+	margin-top: 15px;
+	margin-bottom: 15px;
+  padding-top: 0px;
+	background-color:#B3B3B3;
+	color: #000;
+	text-align: center;
+}
+
+.well li {
+	font-size: 95%;
+}
+
+#footer a {
+	color: #7F7F7F;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	color: #999;
+	text-decoration: underline;
+}
+
+.navbar-inner {
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+
+.ident {
+	padding-top: 10px;
+}
+
+
+#copy {
+	font-size: 85%;
+	text-align: center;
+}
+
+
+.klingon {
+	font-size: 175%;
+	font-weight: bold;
+	font-family: Verdana;
+}
+
+.translation {
+	font-size: 120%;
+	font-style: italic;
+	font-family: Verdana;
+}
+
+.comment {
+	border: solid 1px #993333;
+  margin: 15px 0;
+	width: 500px;
+	padding: 5px;
+	background-color: #FAE2EA;
+}
+
+.comment a {
+	color: #993333;
+}

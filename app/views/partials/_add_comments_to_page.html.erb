@@ -1,0 +1,9 @@
+<p>
+	<strong><%= obj.comments.size.zero? ? "No comments yet" : pluralize(obj.comments.size, 'comment') %> on this <%= "#{obj.class.to_s.downcase}" %></strong><br>
+	<% unless @comments.empty? || @comments.nil? %>
+		<%= render :partial => "partials/comment_list" %>
+	<% end %>
+</p>
+<p>
+	<%= render :partial => "partials/comment_form" %>
+</p>
