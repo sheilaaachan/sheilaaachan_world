@@ -1,7 +1,7 @@
 class ProverbsController < ApplicationController
   
   def index
-    @proverbs = Proverb.alphabetical.paginate(:page => params[:page]).per_page(10)
+    @proverbs = Proverb.alphabetical.active.paginate(:page => params[:page]).per_page(10)
   end
 
 

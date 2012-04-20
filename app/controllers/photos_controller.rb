@@ -1,7 +1,7 @@
 class PhotosController < ApplicationController
   
   def index
-    @photos = Photo.alphabetical.paginate(:page => params[:page]).per_page(5)
+    @photos = Photo.active.alphabetical.paginate(:page => params[:page]).per_page(5)
   end
 
 
