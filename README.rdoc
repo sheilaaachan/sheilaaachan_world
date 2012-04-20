@@ -1,0 +1,9 @@
+This is an extension of a super simple Rails app that was built as a class demonstration in the spring of 2012.  The proverbs example now allows the user to add photos to the site and we will expand this to also include articles.  The lab will keep us fresh on Rails concepts we've learned so far, but the real challenge will be that someone else will be adding this functionality and you will have to merge it into your project via 'pull requests' (don't worry -- this will be explained more in the lab.)  If time allows, we will also add a 'star rating' system to the photos section.
+
+Twitter bootstrap is used to give the style a basic facelift, but we are using a static version with the asset pipeline turned off so that PC users can use this code base as easily as Linux and Mac users.
+
+The class is Application Design & Development and is for Information Systems students at Carnegie Mellon University (campuses both in Pittsburgh and Doha).  We have posted this code on github.com in a public directory so that (a) it 
+is readily accessible to students in both PA and Qatar and (b) that students 
+will get a little familiarity with github.com.
+
+NOTE: This project does require the use of the will_paginate, carrierwave, and simple_form gems to work properly. The twitter-bootstrap-rails gem is not required for this project.
